@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.menusav{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+a {
+    margin-right: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+   
+}
+
+a :hover {
+   
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+
+.tartalom {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 300px;
+    margin-right: 300px;
+}
