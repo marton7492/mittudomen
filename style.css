@@ -6,19 +6,17 @@ body{
 .menusav{
     background-color: white;
     font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin-right:auto;
 
 }
 
-a {
-    margin-right: 100px;
+a{
+    margin-right: 400px;
     text-decoration: none;
     color: black;
     font-size: 30px;
-   
-}
 
-a :hover {
-   
 }
 
 img {
