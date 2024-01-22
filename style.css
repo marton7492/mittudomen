@@ -4,19 +4,21 @@ body{
 }
 
 .menusav{
-    background-color: white;
-    font-family: 'Courier New', Courier, monospace;
-    display: block;
-    margin-right:auto;
-
+    background-color: white;   
+    display: flex;
+    border-radius: 5px;
 }
 
 a{
-    margin-right: 400px;
     text-decoration: none;
     color: black;
     font-size: 30px;
-
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    
 }
 
 img {
@@ -33,4 +35,9 @@ img {
     font-family: 'Courier New', Courier, monospace;
     margin-left: 300px;
     margin-right: 300px;
+}
+
+.menusav :hover {
+    background-color: black;
+    color: white;
 }
