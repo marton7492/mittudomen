@@ -41,3 +41,9 @@ img {
     background-color: black;
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .menusav a {
+        color: red;
+    }
+}
