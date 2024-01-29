@@ -1,12 +1,13 @@
 body{
     background-color: black;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .menusav{
     background-color: white;   
     display: flex;
-    border-radius: 5px;
+
 }
 
 a{
@@ -17,22 +18,19 @@ a{
     margin-right: auto;
     margin-top: 5px;
     margin-bottom: 5px;
-    border-radius: 5px;
+
     
 }
 
 img {
-    width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
     
 }
 
 .tartalom {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     margin-left: 300px;
     margin-right: 300px;
 }
@@ -40,10 +38,4 @@ img {
 .menusav :hover {
     background-color: black;
     color: white;
-}
-
-@media only screen and (max-width: 600px) {
-    .menusav a {
-        color: red;
-    }
 }
