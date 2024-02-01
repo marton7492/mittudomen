@@ -45,3 +45,16 @@ img {
         color: red;
     }
 }
+
+
+:root {
+    --c: green;
+}
+
+body:has(#szin:checked) {
+    --c: red;
+}
+
+h1 {
+    color: var(--c);
+}
