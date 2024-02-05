@@ -19,12 +19,6 @@ a {
   margin-bottom: 5px;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .tartalom {
   text-align: center;
   margin-left: 300px;
@@ -46,6 +40,12 @@ body:has(#szin:checked) {
   --c: red;
 }
 
+body:has(#gomb:checked) {
+  --d: block;
+  .a {
+  }
+}
+
 @media only screen and (max-width: 600px) {
   :root {
     --d: none;
@@ -63,4 +63,8 @@ h1 {
 
 .gomb {
   display: var(--g);
+}
+
+.gomb1 {
+  display: none;
 }
