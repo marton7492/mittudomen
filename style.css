@@ -1,75 +1,66 @@
-body{
-    background-color: black;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.menusav{
-    background-color: white;   
-    display: flex;
-
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
-
-    
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.tartalom {
-    text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-
-.menusav :hover {
-    background-color: black;
-    color: white;
-}
-
-
-
-
-:root {
-    --c: green;
-    --d: block;
-    --g: none;
-}
-
-body:has(#szin:checked) {
-    --c: red;
-}
-
-@media only screen and (max-width: 600px) {
-    :root{
-        --d: none;
-        --g: block;
-
-    }
-}
-
-
-h1 {
-    color: var(--c);
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .menusav {
-    display: var(--d);
+  background-color: white;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tartalom {
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.menusav :hover {
+  background-color: black;
+  color: white;
+}
+
+:root {
+  --c: green;
+  --d: flex;
+  --g: none;
+}
+
+body:has(#szin:checked) {
+  --c: red;
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --d: none;
+    --g: block;
+  }
+}
+
+h1 {
+  color: var(--c);
+}
+
+.menusav {
+  display: var(--d);
 }
 
 .gomb {
-    display: var(--g);
+  display: var(--g);
 }
