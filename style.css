@@ -40,21 +40,36 @@ img {
     color: white;
 }
 
-@media only screen and (max-width: 600px) {
-    .menusav a {
-        color: red;
-    }
-}
+
 
 
 :root {
     --c: green;
+    --d: block;
+    --g: none;
 }
 
 body:has(#szin:checked) {
     --c: red;
 }
 
+@media only screen and (max-width: 600px) {
+    :root{
+        --d: none;
+        --g: block;
+
+    }
+}
+
+
 h1 {
     color: var(--c);
+}
+
+.menusav {
+    display: var(--d);
+}
+
+.gomb {
+    display: var(--g);
 }
